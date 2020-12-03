@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+P:\CHDT10A\Thiet_Ke_He_Thong_Nhung\BT\Tieu Luan\Code\Tieu_Luan.uvproj
+Project File Date:  12/01/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(177): warning:  #68-D: integer conversion resulted in a change of sign
+    xQueueReceive(analogUartQueue, &str_to_uart, -1);
+main.c(237): warning:  #68-D: integer conversion resulted in a change of sign
+      xQueueReceive(analogUartQueue, &str, -1);
+main.c(254): warning:  #68-D: integer conversion resulted in a change of sign
+      xQueueReceive(analogGpioQueue, &str, -1);
+main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=17112 RO-data=304 RW-data=96 ZI-data=18232  
+FromELF: creating hex file...
+".\Tieu_Luan.axf" - 0 Error(s), 3 Warning(s).
+</pre>
+</body>
+</html>
+9.0.0rc2\FreeRTOS\Source\queue.c: 1 warning, 0 errors
+compiling list.c...
+compiling port.c...
+assembling portASM.s...
+linking...
+Program Size: Code=17280 RO-data=304 RW-data=144 ZI-data=18232  
+FromELF: creating hex file...
+".\Tieu_Luan.axf" - 0 Error(s), 3 Warning(s).

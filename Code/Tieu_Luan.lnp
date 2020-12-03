@@ -1,0 +1,13 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\main.o"
+".\heap_2.o"
+".\tasks.o"
+".\queue.o"
+".\list.o"
+".\port.o"
+".\portasm.o"
+--strict --scatter ".\Tieu_Luan.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Tieu_Luan.map" -o .\Tieu_Luan.axf

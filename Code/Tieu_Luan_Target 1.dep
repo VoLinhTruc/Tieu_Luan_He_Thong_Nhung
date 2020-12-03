@@ -1,0 +1,93 @@
+Dependencies for Project 'Tieu_Luan', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x5FC66E4C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x5FC7C728)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I.-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil\ARM\Inc\Philips\lpc213x.h)(0x532BFFE8)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x5FC66566)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\queue.h)(0x56FBBC44)
+F (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\MemMang\heap_2.c)(0x56FBBC45)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I.-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\heap_2.o --omf_browse .\heap_2.crf --depend .\heap_2.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x5FC66566)
+I (C:\Keil\ARM\Inc\Philips\lpc213x.h)(0x532BFFE8)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+F (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\tasks.c)(0x56FBBC45)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I.-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x5FC66566)
+I (C:\Keil\ARM\Inc\Philips\lpc213x.h)(0x532BFFE8)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\timers.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\StackMacros.h)(0x56FBBC44)
+F (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\queue.c)(0x56FBBC45)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I.-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\queue.o --omf_browse .\queue.crf --depend .\queue.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x5FC66566)
+I (C:\Keil\ARM\Inc\Philips\lpc213x.h)(0x532BFFE8)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\queue.h)(0x56FBBC44)
+F (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\list.c)(0x56FBBC44)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I.-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\list.o --omf_browse .\list.crf --depend .\list.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x5FC66566)
+I (C:\Keil\ARM\Inc\Philips\lpc213x.h)(0x532BFFE8)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+F (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\port.c)(0x56FBBC45)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Demo\Common\include -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include -I.-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOS.h)(0x56FBBC44)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C7D364)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7D364)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\FreeRTOSConfig.h)(0x5FC66566)
+I (C:\Keil\ARM\Inc\Philips\lpc213x.h)(0x532BFFE8)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\projdefs.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\portable.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\deprecated_definitions.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x56FBBC45)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\mpu_wrappers.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\task.h)(0x56FBBC44)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\include\list.h)(0x56FBBC44)
+F (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portASM.s)(0x56FBBC45)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\portasm.lst --xref -o .\portasm.o --depend .\portasm.d)
+I (C:\Keil\FreeRTOS_V9.0.0rc2\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.inc)(0x56FBBC45)
